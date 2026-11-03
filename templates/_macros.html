@@ -1,0 +1,11 @@
+{% macro crumbs(items) %}
+<nav class="crumbs" aria-label="パンくず">{% for name, url in items %}{% if url %}<a href="{{ url }}">{{ name }}</a> ›&nbsp;{% else %}<span>{{ name }}</span>{% endif %}{% endfor %}</nav>
+{% endmacro %}
+{% macro crumbs_ld(items, base) %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for name, url in items %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ name|tojson }}{% if url %},"item":{{ (base ~ url)|tojson }}{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
+{% endmacro %}
+{% macro partner(cfg, key, place, title, text) %}{% set a = cfg.affiliate.get(key) %}{% if a and a.enabled and a.url %}<div class="cta">
+  <p class="cta-text"><b>{{ title }}</b>{{ text }}</p>
+  <a class="btn btn-lg" href="{{ a.url }}" target="_blank" rel="nofollow sponsored noopener" data-partner="{{ key }}" data-place="{{ place }}">{{ a.label }}</a>{% if a.imp_pixel %}<img src="{{ a.imp_pixel }}" width="1" height="1" alt="" class="px">{% endif %}
+</div>{% endif %}{% endmacro %}
+{% macro src(url, label='公式サイト') %}<a href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>{% endmacro %}

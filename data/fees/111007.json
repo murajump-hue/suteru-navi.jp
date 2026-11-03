@@ -1,0 +1,114 @@
+{
+ "code": "111007",
+ "items": [
+  {
+   "name": "その他の粗大ごみ（最大の1辺または直径が90cm以上2m未満。自転車・タンス・机・ベッドなど）",
+   "options": [
+    {
+     "cond": "1品につき",
+     "fee": 550
+    }
+   ],
+   "note": "分解しても元が1品なら納付券1枚",
+   "group": "粗大ごみ"
+  },
+  {
+   "name": "スプリング入りマットレス",
+   "options": [
+    {
+     "cond": "",
+     "fee": 2200
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スプリング入りソファー（1人掛け）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1100
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スプリング入りソファー（2人掛け以上）分離 しない一本のもの",
+   "options": [
+    {
+     "cond": "",
+     "fee": 2200
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物干し台（コンクリート台付、1個）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1100
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "バッテリー（鉛バッテリー）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1100
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "タイヤ（1本）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1100
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ホイール（1本）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1100
+    }
+   ],
+   "note": "",
+   "group": ""
+  }
+ ],
+ "source_items": "https://www.city.saitama.lg.jp/001/006/010/003/p072165.html",
+ "items_fetched_at": "2026-11-03",
+ "official": "https://www.city.saitama.lg.jp/001/006/010/003/p072165.html",
+ "fee_page": "https://www.city.saitama.lg.jp/001/006/010/003/p072165.html",
+ "web": "https://www.sodai.city.saitama.jp/",
+ "web_hours": "24時間（年中無休、メンテナンス時を除く）",
+ "tel": "048-878-0053",
+ "tel_hours": "月〜金 8:30〜17:00（祝日も受付）",
+ "tickets": [
+  550,
+  1100
+ ],
+ "ticket_note": "納付券は550円券と1,100円券。組み合わせて貼れる",
+ "flat_fee": 550,
+ "flat_desc": "最大の1辺または直径が90cm以上2m未満のごみは1品550円",
+ "limit": "1回に4個まで",
+ "wait": "混雑状況により収集まで1か月程度かかる場合がある",
+ "wait_kind": "notice",
+ "carry_in": null,
+ "pickup_place": "収集日の朝8時30分までに約束した場所に出す。屋内（集合住宅は建物内）からの収集はしない",
+ "checked_at": "2026-11-03"
+}

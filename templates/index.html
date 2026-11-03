@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}{{ cfg.site_name }}｜粗大ごみの捨て方を地域と品目で比較【{{ ym }}更新】{% endblock %}
+{% block desc %}住んでいる地域と捨てたい粗大ごみから、自治体に出すか業者に頼むか、どの捨て方がいいかを比較。自治体の手数料をまとめて計算できます。{% endblock %}
+{% block pagetype %}top{% endblock %}
+{% block main %}
+<section class="hero">
+  <h1>粗大ごみ、<br>どう捨てるのがいい？</h1>
+  <p>住んでいる地域と捨てたいものを選ぶと、自治体に出した場合の合計料金がすぐわかります。収集までの日数や運び出しの手間も、業者に頼む場合と並べて比べられます。</p>
+  <div class="search">
+    <input id="q" type="search" placeholder="市区町村名を入力（例：世田谷区、船橋市）" autocomplete="off" aria-label="市区町村名で検索">
+    <ul id="results"></ul>
+  </div>
+</section>
+
+<section class="how">
+  <h2>捨てるナビでわかること</h2>
+  <ol class="how-list">
+    <li><b>まとめて計算</b>ソファ、ベッド、自転車など捨てたいものを選ぶだけで、自治体の手数料の合計と処理券の枚数がわかります。</li>
+    <li><b>申込から収集まで</b>申込方法、受付時間、収集までの目安日数、1回に出せる点数を自治体ごとに整理しています。</li>
+    <li><b>業者との比較</b>急いでいる、運び出せない、量が多いときは、回収業者に頼む場合と比べて決められます。</li>
+  </ol>
+</section>
+
+<section id="areas">
+  <h2>地域から探す</h2>
+  {% for slug, name, cs in pref_list %}
+  <h3>{{ name }}</h3>
+  <ul class="pref-links">{% for c in cs %}<li><a href="{{ c.url }}">{{ c.name }}</a></li>{% endfor %}</ul>
+  {% endfor %}
+  <p class="note">対応地域は順次増やしています。料金は各自治体の公式サイトで確認した情報です（{{ latest }}時点）。</p>
+</section>
+
+<script>
+(function(){var d=null,q=document.getElementById('q'),r=document.getElementById('results');
+function show(v){if(!d)return;v=v.trim();r.innerHTML='';if(!v)return;
+var hit=d.filter(function(c){return (c.p+c.n).indexOf(v)>=0;}).slice(0,12);
+if(!hit.length){var li=document.createElement('li');li.className='none';li.textContent='この地域はまだ準備中です';r.appendChild(li);return;}
+hit.forEach(function(c){var li=document.createElement('li'),a=document.createElement('a');a.href=c.u;a.textContent=c.p+' '+c.n;li.appendChild(a);r.appendChild(li);});}
+q.addEventListener('focus',function(){if(!d)fetch('/assets/cities.json').then(function(x){return x.json();}).then(function(j){d=j;show(q.value);});});
+q.addEventListener('input',function(){show(q.value);});})();
+</script>
+{% endblock %}

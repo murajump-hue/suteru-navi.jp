@@ -1,0 +1,3243 @@
+{
+ "code": "112038",
+ "items": [
+  {
+   "name": "ＩＨクッキングヒーター(置型式)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "アイロン台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "アコーディオンカーテン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 1550
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "足拭きマット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "アタッシュケース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "編み機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "網戸",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "アンテナ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "アンプ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "衣装ケース【BOX・段タイプ】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "いす【木製】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "一輪車【玩具】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ウインドサーフィン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 620
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "植木支柱（園芸用）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "植木台・花台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ウォシュレット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "臼（うす、木製のみ）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "乳母車（ベビーカー）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "枝切バサミ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "枝・幹",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "エレキギター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "エレクトーン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ＡＶ機器周辺機器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "置物・飾り物",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "桶",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "オットマン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "お盆",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "おまる",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "おもちゃ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "オルガン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "オルゴール",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "音楽プレイヤー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "オーディオラック",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "トースター・オーブントースター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "レンジ・オーブンレンジ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "絵画",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "介護用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "かいまき",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "鏡・姿見",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "額（がく）・パネル",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "掛け軸",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カゴ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "傘たて",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "加湿器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ガステーブル・ガスレンジ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "かばん",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "花瓶",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "蚊帳",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ガラス（建築廃材は除く）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カラーボックス",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "観葉植物",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ガーデニング用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カーテンレール",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カーペット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "木",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "義手",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "義足",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ギター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "キックボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "キッチンワゴン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "木槌",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "キャリーバッグ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "給油ポンプ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "金属缶",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "キーボード（音楽用）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "空気入れ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "空気清浄器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "クッション",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "クリスマスツリー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "車椅子",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "クーラーボックス",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "血圧計",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "玄関マット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "健康器具【ランニングマシン等】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "剣道防具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ケージ【子供用柵】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ケージ【ペット用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ゲーム機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "行李（こうり）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ござ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "こたつ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "こたつ板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "琴・ギター等の楽器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "碁盤",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ごみ箱",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ゴムホース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "米びつ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ゴルフ用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "座椅子",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "サイドボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "座卓",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "サマーベッド・ビーチベッド",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "三脚",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "三面鏡",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "三輪車【子供用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "サーフボード・ウィンドサーフィンボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 620
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "支柱（ガーデニング等用）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "七輪",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "漆器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "自転車【大人用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "自転車【子供用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "自転車用補助いす",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "竹刀",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "シャンデリア",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "じゅうたん",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "収納棚・隙間家具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "収納たんす【押入れ用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "シュレッダー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "シューズケース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "将棋板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "照明器具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "除湿機（フロン類ガス式でないもの）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "食器洗い機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "食器乾燥機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "食器だな",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ショッピングカート",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "シルバーカー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "シンセサイザー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ＣＤプレイヤー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "水槽",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "水筒",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "炊飯器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スキャナー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スキー板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 620
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スキー靴",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スキーストック",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スケートボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スコップ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "すだれ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ステレオセット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストッカー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストーブ【その他】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストーブ【ガス】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストーブ【石油】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストーブ【電気】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ストーブガード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "すのこ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スノーボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 620
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スピーカー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ズボンプレッサー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スリッパ立て",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スーツケース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "石油ポリ容器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "洗濯かご",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "扇風機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "洗面器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "掃除機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "掃除用具（モップ・ほうき）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ソファー【１人掛け・コーナー部分】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ソファー【２人掛け】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ソファー【３人掛け】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ソファーベッド",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "そり",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "体重計",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "タイプライター（本体のみ）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "タイヤチェーン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "高枝切りばさみ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "卓上コンロ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "竹馬",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "裁ち板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "棚（たな）・キャビネット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "たんす",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ダンベル【重り】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "チェスト・引出し",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "地球儀",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "チャイルドシート",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "茶箱",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ちゃぶだい",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "チューナー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "調理台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ちりとり",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "杖",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "机【学習用・ＰＣ用】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "つっぱり棚",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "つっぱり棒",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "つづら",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "壷",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "釣り道具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "手提げ金庫",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "デスクマット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テニスラケット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テレビ台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電気アンカ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電気ポット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電気毛布",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電気もちつき機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電子ピアノ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電子レンジ・オーブンレンジ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テント",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電話台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テーブル",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テープレコーダー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "時計",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "トランク",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "鳥かご",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "トレイ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ドレッサー【化粧台】・鏡台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "トロフィー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "トースター・オーブントースター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "生ごみ処理機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "二段ベッド",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "人形",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "人形ケース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ぬいぐるみ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "根",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "寝袋",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "のこぎり（電動除く）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ハイアンドローチェア（ベビー用いす）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "パイプハンガー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "バウンサー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "はかり",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "バケツ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "羽子板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "パソコン用キーボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "バット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "バドミントンラケット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "パラソル【傘部分】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "パラソル【台座部分】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "バーベキュー用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "美顔器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "びく（釣用）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ビデオカメラ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ビデオ・DVD・ブルーレイディスクデッキ等",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "雛壇セット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "火鉢",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ビーズクッション",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【オイルヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【温風ヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【セラミックヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【パネルヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【ハロゲンヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヒーター【ファンヒーター】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ファックス（ＦＡＸ）・FAX付電話機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ファンシーケース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【布団】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【座布団】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【長座布団】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団たたき",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団干し",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【掛け】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【こたつ掛け】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【こたつ敷き】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団【敷き】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ブラインド・ロールカーテン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "プランター・植木鉢",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "プリンター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "風呂のふた",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "風呂のマット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "プール",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【折畳み】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 2480
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【シングル】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【セミダブル】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【ダブル】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【電動式】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 7750
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド【パイプ】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド下収納家具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ペット用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーカゴ（クーハン）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーカー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーゲート",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーバス",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーベッド",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビー用品",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーラック",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ヘルメット（フルフェイス・ジェット）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "便座",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "箒（ほうき）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "棒状・板状のもの",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "歩行器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホットカーペット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホットカーペットカバー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホットプレート・グリル鍋",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホッピング",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ボディーボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ポリタンク",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "本箱・本棚",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホース",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホースリール",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ポータブルトイレ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ホームベーカリー・パン焼き機",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ポールハンガー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "まくら",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マッサージ器具【肩・腰・足・その他】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マッサージチェア",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マットレス【スプリング】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 3720
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マットレス【スプリングなし】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "まな板",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "魔法瓶",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ミシン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ミニコンポ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "虫かご",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "蒸し器",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "毛布（厚手）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "モップ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "物干し竿",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "物干台・布団用物干・室内用物干・大型ピンチ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "野球用バット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "遊具",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "湯たんぽ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ゆりかご",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "容器類・箱",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "よしず",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ラケット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ラジカセ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ラック【AV・ランドリー】",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ラティス（柵類）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ランタン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ランプ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "リュックサック",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ルーフボックス",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "レコードプレーヤー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "レジャーシート ブルーシート、ビニールシート",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "レジャーテーブル",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "レンジ台",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ロッキングチェアー",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ロースター",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ロープ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ローボード",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "枠",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ワゴン",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ワープロ",
+   "options": [
+    {
+     "cond": "",
+     "fee": 310
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "source_items": "https://www.sodai-kawaguchi.jp/eco/view/kawaguchi/dustlistSearch.html",
+ "items_fetched_at": "2026-11-03",
+ "official": "https://www.city.kawaguchi.lg.jp/kurashi_tetsuzuki/gomi_risaikuru/2/1/1/13246.html",
+ "fee_page": "https://www.sodai-kawaguchi.jp/eco/view/kawaguchi/dustlistSearch.html",
+ "web": "https://www.sodai-kawaguchi.jp/eco/view/kawaguchi/top.html",
+ "web_hours": null,
+ "tel": "048-251-1111",
+ "tel_hours": "月〜金 9:00〜17:00（祝日・年末年始を除く）",
+ "tickets": [
+  310
+ ],
+ "ticket_note": "有料シールは1枚310円の1種類のみ。必要な枚数を貼る",
+ "limit": "1世帯1回15点まで",
+ "wait": null,
+ "wait_kind": null,
+ "carry_in": null,
+ "pickup_place": null,
+ "checked_at": "2026-11-03"
+}

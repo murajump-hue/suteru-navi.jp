@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set crumb = [(cfg.site_name, '/'), (c.pref, None), (c.name, None)] %}
+{% block title %}【{{ c.ym }}】{{ c.name }}の粗大ごみの捨て方｜料金をまとめて計算・業者と比較{% endblock %}
+{% block desc %}{{ c.pref }}{{ c.name }}の粗大ごみの捨て方。捨てたい品目を選ぶと、自治体に出した場合の合計料金{% if c.tickets %}と処理券の内訳{% endif %}がわかります。申込方法・収集までの目安と、業者に頼む場合との比較も。{% endblock %}
+{% block pagetype %}city{% endblock %}
+{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url) }}{% endblock %}
+{% block crumbs %}{{ m.crumbs(crumb) }}{% endblock %}
+{% block main %}
+<h1>{{ c.name }}の粗大ごみの捨て方<span class="sub">{{ c.pref }}・{{ c.ym }}確認</span></h1>
+<div class="lead">
+  <p>{{ c.name }}の粗大ごみは<strong>事前申込制</strong>です。{% if c.flat_fee %}{{ c.flat_desc }}で、{% endif %}手数料は品目によって<strong>{{ yen(c.fee_min) }}〜{{ yen(c.fee_max) }}</strong>です。{% if c.wait %}{{ c.wait }}ので、余裕をもって申し込みましょう。{% endif %}</p>
+  <p>下の「まとめて計算」で捨てたいものを選ぶと、自治体に出した場合の合計{% if c.tickets %}と処理券の枚数{% endif %}がわかります。急ぐときや運び出せないときは、業者に頼む場合と比べて決められます。</p>
+</div>
+
+<section id="calc" class="calc">
+  <h2>捨てたいものを選んで、まとめて計算</h2>
+  <div class="calc-grid">
+    <div class="calc-pick">
+      <div class="chips" role="group" aria-label="よく捨てるもの">{% for label, q in quick %}<button type="button" class="chip" data-q="{{ q }}">{{ label }}</button>{% endfor %}</div>
+      <input id="q" class="q" type="search" placeholder="品目名で探す（例：ソファ、自転車）" aria-label="品目名で探す" autocomplete="off">
+      <div class="warn" id="w-recycle" hidden><b>{{ c.name }}の粗大ごみでは出せません</b>テレビ・エアコン・冷蔵庫（冷凍庫）・洗濯機（衣類乾燥機）は家電リサイクル法の対象です。買い替える店での引き取り、または家電リサイクル券を使った処分になります。まとめて片付けるなら、回収業者に頼むのが手軽です。</div>
+      <div class="warn" id="w-pc" hidden><b>{{ c.name }}の粗大ごみでは出せません</b>家庭用パソコンはメーカーによる回収（パソコンリサイクル）の対象です。</div>
+      <div class="items-box"><table class="items" id="items">
+        <thead><tr><th>品目</th><th>手数料</th><th></th></tr></thead>
+        <tbody>
+        {% for it in c['items'] %}
+          <tr data-name="{{ it.name }}{% if it.alias %} {{ it.alias }}{% endif %}">
+            <td class="iname">{{ it.name }}{% if it.note %}<small>{{ it.note }}</small>{% endif %}</td>
+            <td class="ifee">{% if it.options|length > 1 %}<select aria-label="{{ it.name }}の条件">{% for o in it.options %}<option value="{{ o.fee }}" data-cond="{{ o.cond }}">{{ o.cond or '−' }} {{ yen(o.fee) }}</option>{% endfor %}</select>{% else %}{% set o = it.options[0] %}<span data-fee="{{ o.fee }}" data-cond="{{ o.cond }}">{{ yen(o.fee) }}</span>{% if o.cond %}<small>{{ o.cond }}</small>{% endif %}{% endif %}</td>
+            <td><button type="button" class="add">追加</button></td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table></div>
+      <p class="note" id="hit"></p>
+    </div>
+
+    <aside class="calc-cart" aria-live="polite">
+      <h3>選んだもの</h3>
+      <ul id="cart"><li class="empty">まだ選ばれていません</li></ul>
+      <div class="total">自治体に出すと <span id="total">0円</span></div>
+      {% if c.tickets %}<p class="tickets" id="tickets"></p>{% endif %}
+      <p class="limit" id="limit" hidden></p>
+    </aside>
+  </div>
+
+  <div class="mbar" id="mbar" hidden><span id="mbar-t"></span><a href="#compare">業者と比べる</a></div>
+  <div class="compare" id="compare">
+    <div class="opt opt-city">
+      <h3>{{ c.name }}に出す</h3>
+      <ul>
+        <li><b>費用</b><span id="c-total">品目を選ぶと計算します</span></li>
+        <li><b>収集まで</b><span>{{ c.wait or '申込時に収集日が決まります' }}</span></li>
+        <li><b>運び出し</b><span>{{ c.pickup_place or '自分で指定の場所まで運び出す' }}</span></li>
+        {% if c.limit %}<li><b>点数</b><span>{{ c.limit }}</span></li>{% endif %}
+      </ul>
+      <a class="btn-sub" href="#apply">申込方法を見る</a>
+    </div>
+    <div class="opt opt-pro">
+      <h3>回収業者に頼む</h3>
+      <ul>
+        <li><b>費用</b><span>品目数・量・作業内容で変わる。複数社の見積もりで比べるのが確実</span></li>
+        <li><b>収集まで</b><span>業者と相談して日時を決める</span></li>
+        <li><b>運び出し</b><span>室内からの運び出しも依頼できる（業者・プランによる）</span></li>
+        <li><b>点数</b><span>自治体の対象外の品目や、まとめての片付けも相談できる</span></li>
+      </ul>
+      {% set a = cfg.affiliate.poimitsu %}{% if a.enabled %}<a class="btn" href="{{ a.url }}" target="_blank" rel="nofollow sponsored noopener" data-partner="poimitsu" data-place="compare">無料で見積もりを比べる</a>{% if a.imp_pixel %}<img src="{{ a.imp_pixel }}" width="1" height="1" alt="" class="px">{% endif %}{% endif %}
+    </div>
+  </div>
+  <p class="note">自治体の手数料は{{ c.ym }}に{{ m.src(c.fee_page, c.name ~ 'の公式情報') }}で確認した金額です。条件（大きさ・重さ）で料金が変わる品目は、選んだ条件で計算しています。申込時に自治体で最終確認してください。</p>
+</section>
+
+<section id="apply">
+  <h2>{{ c.name }}の粗大ごみの申込方法</h2>
+  <table class="info">
+    <tbody>
+      {% if c.web %}<tr><th>インターネット</th><td>{{ m.src(c.web, c.name ~ 'の粗大ごみ受付サイト') }}{% if c.web_hours %}<br><small>受付：{{ c.web_hours }}</small>{% endif %}</td></tr>{% endif %}
+      {% if c.tel %}<tr><th>電話</th><td>{{ c.tel }}{% if c.tel_hours %}<br><small>受付：{{ c.tel_hours }}</small>{% endif %}</td></tr>{% endif %}
+      <tr><th>支払い</th><td>{{ c.ticket_note }}</td></tr>
+      {% if c.limit %}<tr><th>1回の点数</th><td>{{ c.limit }}</td></tr>{% endif %}
+      {% if c.wait %}<tr><th>収集までの目安</th><td>{{ c.wait }}{% if c.wait_url %}（{{ m.src(c.wait_url, '確認する') }}）{% endif %}</td></tr>{% endif %}
+      {% if c.pickup_place %}<tr><th>出し方</th><td>{{ c.pickup_place }}</td></tr>{% endif %}
+      {% if c.carry_in %}<tr><th>持ち込み</th><td>{{ c.carry_in }}</td></tr>{% endif %}
+    </tbody>
+  </table>
+  <ol class="steps">
+    <li>捨てるものの大きさを測り、品目と手数料を確認する（上の「まとめて計算」が使えます）</li>
+    <li>インターネットか電話で申し込み、収集日と受付番号を受け取る</li>
+    <li>{% if c.tickets %}指定された金額分の処理券を購入し、品目ごとに貼る{% else %}手数料を支払う（処理券の購入など）{% endif %}</li>
+    <li>収集日の朝、指定された場所に出す</li>
+  </ol>
+  <p class="note">詳しくは{{ m.src(c.official, c.name ~ 'の公式ページ') }}を確認してください。</p>
+</section>
+
+<section>
+  <h2>{{ c.name }}の粗大ごみで出せないもの</h2>
+  <ul>
+    <li><b>家電リサイクル法の対象品目</b>：テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機。購入店での引き取りや、家電リサイクル券を使った処分になります。</li>
+    <li><b>家庭用パソコン</b>：メーカーによる回収の対象です。</li>
+    <li>このほか、自治体ごとに収集しない品目（処理が難しいもの、事業ごみなど）があります。{{ m.src(c.official, '公式ページ') }}で確認してください。</li>
+  </ul>
+  {{ m.partner(cfg, 'poimitsu', 'not_accepted', '自治体で出せないものも、まとめて片付けたいなら', '回収業者なら、家電や大量の不用品もまとめて相談できます。複数社の見積もりを無料で比べられます。') }}
+</section>
+
+<section>
+  <h2>家まるごとの片付け・遺品整理なら</h2>
+  <p>部屋や家ごと片付ける場合は、粗大ごみの申込を何度も繰り返すより、片付け・遺品整理の専門業者に頼むほうが早く済みます。</p>
+  {{ m.partner(cfg, 'ihin110', 'ihin', '遺品整理・家の片付けを相談する', '全国対応の遺品整理サービスです。') }}
+</section>
+
+{% if others %}
+<section>
+  <h2>ほかの地域の粗大ごみの捨て方</h2>
+  <ul class="city-links">{% for o in others %}<li><a href="{{ o.url }}">{{ o.pref }} {{ o.name }}</a></li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+<script>
+(function(){
+var TICKETS={{ (c.tickets or [])|tojson }},LIMIT={{ (c.limit or '')|tojson }};
+var $=function(i){return document.getElementById(i);},rows=[].slice.call(document.querySelectorAll('#items tbody tr'));
+var cart=[];
+function yen(n){return n.toLocaleString('ja-JP')+'円';}
+function filter(v){
+  var re=null;try{re=v?new RegExp(v,'i'):null;}catch(e){re=null;}
+  var n=0;rows.forEach(function(r){var ok=!v||(re?re.test(r.dataset.name):r.dataset.name.indexOf(v)>=0);r.hidden=!ok;if(ok)n++;});
+  $('hit').textContent=v?n+'件の品目が見つかりました':'全'+rows.length+'品目';
+  $('w-recycle').hidden=!(v&&/{{ recycle_law }}/.test(v));
+  $('w-pc').hidden=!(v&&/{{ pc_law }}/.test(v));
+}
+function tickets(total){
+  if(!TICKETS.length||!total)return '';
+  var ds=TICKETS.slice().sort(function(a,b){return a-b;}),best=[0],from=[null];
+  for(var t=1;t<=total;t++){best[t]=Infinity;for(var i=0;i<ds.length;i++){var d=ds[i];if(d<=t&&best[t-d]+1<best[t]){best[t]=best[t-d]+1;from[t]=d;}}}
+  if(best[total]===Infinity)return '';
+  var cnt={},t2=total;while(t2>0){cnt[from[t2]]=(cnt[from[t2]]||0)+1;t2-=from[t2];}
+  return '処理券：'+ds.slice().reverse().filter(function(d){return cnt[d];}).map(function(d){return d.toLocaleString()+'円券×'+cnt[d]+'枚';}).join('、');
+}
+function render(){
+  var ul=$('cart');ul.innerHTML='';var total=0,count=0;
+  if(!cart.length){ul.innerHTML='<li class="empty">まだ選ばれていません</li>';}
+  cart.forEach(function(x,i){total+=x.fee*x.n;count+=x.n;
+    var li=document.createElement('li');
+    li.innerHTML='<span class="cn"></span><span class="cq"><button type="button" aria-label="減らす">−</button><b></b><button type="button" aria-label="増やす">＋</button></span><span class="cf"></span>';
+    li.querySelector('.cn').textContent=x.name+(x.cond?'（'+x.cond+'）':'');
+    li.querySelector('b').textContent=x.n;li.querySelector('.cf').textContent=yen(x.fee*x.n);
+    var bs=li.querySelectorAll('button');bs[0].onclick=function(){x.n--;if(x.n<=0)cart.splice(i,1);render();};bs[1].onclick=function(){x.n++;render();};
+    ul.appendChild(li);});
+  $('total').textContent=yen(total);
+  $('c-total').textContent=count?count+'点で'+yen(total):'品目を選ぶと計算します';
+  $('mbar').hidden=!count;$('mbar-t').innerHTML=count?count+'点　<b>'+yen(total)+'</b>':'';
+  var tk=$('tickets');if(tk)tk.textContent=tickets(total);
+  var lm=$('limit');var mm=LIMIT.match(/(\d+)\s*(点|個)/);
+  if(mm&&count>+mm[1]){lm.hidden=false;lm.textContent='1回に申し込めるのは'+mm[1]+mm[2]+'までです（'+LIMIT+'）。'+count+'点を出すには複数回の申込が必要です。まとめて片付けるなら業者に頼む方法もあります。';}else lm.hidden=true;
+}
+rows.forEach(function(r){r.querySelector('.add').addEventListener('click',function(){
+  var sel=r.querySelector('select'),sp=r.querySelector('[data-fee]'),fee,cond;
+  if(sel){fee=+sel.value;cond=sel.options[sel.selectedIndex].dataset.cond;}else{fee=+sp.dataset.fee;cond=sp.dataset.cond;}
+  var name=r.querySelector('.iname').firstChild.textContent.trim();
+  var ex=cart.filter(function(x){return x.name===name&&x.fee===fee&&x.cond===cond;})[0];
+  if(ex)ex.n++;else cart.push({name:name,fee:fee,cond:cond,n:1});render();
+});});
+[].forEach.call(document.querySelectorAll('.chip'),function(b){b.addEventListener('click',function(){$('q').value=b.textContent;filter(b.dataset.q);});});
+$('q').addEventListener('input',function(){filter(this.value.trim());});
+filter('');
+})();
+</script>
+{% endblock %}
