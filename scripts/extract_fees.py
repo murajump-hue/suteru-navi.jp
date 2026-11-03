@@ -117,6 +117,13 @@ def from_eco(url):
         pg = b.new_page(locale='ja-JP', extra_http_headers={'Accept-Language': 'ja'}, user_agent=UA)
         pg.goto(url, wait_until='networkidle', timeout=90000)
         pg.wait_for_timeout(6000)
+        if pg.eval_on_selector_all('#dust_dustList li', 'ls => ls.length') <= 1:
+            # 自動で全品目を表示しない設定の受付サイトは「全ての品目」を押す
+            for sel in ['a.classAll', '#dust_classList a', 'text=全ての品目', 'text=すべての品目']:
+                if pg.query_selector(sel):
+                    pg.click(sel)
+                    pg.wait_for_timeout(6000)
+                    break
         rows = pg.eval_on_selector_all('#dust_dustList li', '''ls => ls.map(l => {
             const g = s => { const e = l.querySelector(s); return e ? e.innerText.trim() : ''; };
             return {text: l.innerText.replace(/\\s+/g, ' ').trim()};
@@ -149,3 +156,36 @@ if __name__ == '__main__':
     flt = sys.argv[sys.argv.index('--table-filter') + 1] if '--table-filter' in sys.argv else None
     items = from_html(url, flt) if kind == 'html' else from_eco(url)
     save(code, items, url)
+
+
+def from_eco_json(base=None, path=None):
+    """sodai-xxx.jp/eco 系の受付サイトの品目一覧（JSON）を読む。
+    base: 'https://www.sodai-setagaya.jp/eco/view/setagaya' のような品目一覧ページのフォルダ。
+    path: 日本以外から接続できない自治体用に、別の環境で保存したJSONファイル。
+    戻り値: (items, 処理券の金額の一覧)"""
+    import http.cookiejar
+    if path:
+        data = json.load(open(path, encoding='utf-8'))
+    else:
+        cj = http.cookiejar.CookieJar()
+        op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        op.addheaders = [('User-Agent', UA), ('Accept-Language', 'ja')]
+        page = op.open(base + '/dustlistSearch.html', timeout=40).read().decode('utf-8', 'replace')
+        m = re.search(r'id="carryFlag"[^>]*>([^<]*)<', page)
+        carry = (m.group(1).strip() if m else 'false') or 'false'
+        time.sleep(2)
+        q = f'{base}/teeda.ajax?time=1&component=dustPage&action=ajaxGetDustList&AjaxParam0=0&AjaxParam1=&AjaxParam2={carry}'
+        req = urllib.request.Request(q, headers={'Referer': base + '/dustlistSearch.html'})
+        data = json.loads(op.open(req, timeout=60).read().decode('utf-8'))
+    items, tickets = [], set()
+    for d in data:
+        if d.get('uncollct_flg') or not d.get('tanka') or d['tanka'] < 0:
+            continue
+        name = clean(d.get('dustName', ''))
+        note = clean(re.sub(r'<[^>]+>', ' ', d.get('html_memo') or ''))[:120]
+        items.append({'name': name, 'options': [{'cond': '', 'fee': int(d['tanka'])}], 'note': note,
+                      'group': clean(d.get('className', ''))})
+        for k, n in zip(d.get('ticketKind') or [], d.get('ticketNumber') or []):
+            tickets.add(int(k))
+    items.sort(key=lambda i: i['name'])
+    return items, sorted(tickets)

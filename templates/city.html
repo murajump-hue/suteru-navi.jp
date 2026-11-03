@@ -19,7 +19,7 @@
     <div class="calc-pick">
       <div class="chips" role="group" aria-label="よく捨てるもの">{% for label, q in quick %}<button type="button" class="chip" data-q="{{ q }}">{{ label }}</button>{% endfor %}</div>
       <input id="q" class="q" type="search" placeholder="品目名で探す（例：ソファ、自転車）" aria-label="品目名で探す" autocomplete="off">
-      <div class="warn" id="w-recycle" hidden><b>{{ c.name }}の粗大ごみでは出せません</b>テレビ・エアコン・冷蔵庫（冷凍庫）・洗濯機（衣類乾燥機）は家電リサイクル法の対象です。買い替える店での引き取り、または家電リサイクル券を使った処分になります。まとめて片付けるなら、回収業者に頼むのが手軽です。</div>
+      <div class="warn" id="w-recycle" hidden>{% if c.kaden_note %}<b>家電リサイクル対象品について</b>{{ c.kaden_note }}{% else %}<b>{{ c.name }}の粗大ごみでは出せません</b>テレビ・エアコン・冷蔵庫（冷凍庫）・洗濯機（衣類乾燥機）は家電リサイクル法の対象です。買い替える店での引き取り、または家電リサイクル券を使った処分になります。まとめて片付けるなら、回収業者に頼むのが手軽です。{% endif %}</div>
       <div class="warn" id="w-pc" hidden><b>{{ c.name }}の粗大ごみでは出せません</b>家庭用パソコンはメーカーによる回収（パソコンリサイクル）の対象です。</div>
       <div class="items-box"><table class="items" id="items">
         <thead><tr><th>品目</th><th>手数料</th><th></th></tr></thead>
@@ -94,9 +94,9 @@
 </section>
 
 <section>
-  <h2>{{ c.name }}の粗大ごみで出せないもの</h2>
+  <h2>{{ c.name }}の粗大ごみで出せないもの・注意が必要なもの</h2>
   <ul>
-    <li><b>家電リサイクル法の対象品目</b>：テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機。購入店での引き取りや、家電リサイクル券を使った処分になります。</li>
+    <li><b>家電リサイクル法の対象品目</b>：テレビ、エアコン、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機。{% if c.kaden_note %}{{ c.kaden_note }}{% else %}購入店での引き取りや、家電リサイクル券を使った処分になります。{% endif %}</li>
     <li><b>家庭用パソコン</b>：メーカーによる回収の対象です。</li>
     <li>このほか、自治体ごとに収集しない品目（処理が難しいもの、事業ごみなど）があります。{{ m.src(c.official, '公式ページ') }}で確認してください。</li>
   </ul>
