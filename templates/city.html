@@ -129,13 +129,19 @@ function filter(v){
   $('w-recycle').hidden=!(v&&/{{ recycle_law }}/.test(v));
   $('w-pc').hidden=!(v&&/{{ pc_law }}/.test(v));
 }
-function tickets(total){
-  if(!TICKETS.length||!total)return '';
+function combo(fee){
   var ds=TICKETS.slice().sort(function(a,b){return a-b;}),best=[0],from=[null];
-  for(var t=1;t<=total;t++){best[t]=Infinity;for(var i=0;i<ds.length;i++){var d=ds[i];if(d<=t&&best[t-d]+1<best[t]){best[t]=best[t-d]+1;from[t]=d;}}}
-  if(best[total]===Infinity)return '';
-  var cnt={},t2=total;while(t2>0){cnt[from[t2]]=(cnt[from[t2]]||0)+1;t2-=from[t2];}
-  return '処理券：'+ds.slice().reverse().filter(function(d){return cnt[d];}).map(function(d){return d.toLocaleString()+'円券×'+cnt[d]+'枚';}).join('、');
+  for(var t=1;t<=fee;t++){best[t]=Infinity;for(var i=0;i<ds.length;i++){var d=ds[i];if(d<=t&&best[t-d]+1<best[t]){best[t]=best[t-d]+1;from[t]=d;}}}
+  if(best[fee]===Infinity)return null;
+  var cnt={},t2=fee;while(t2>0){cnt[from[t2]]=(cnt[from[t2]]||0)+1;t2-=from[t2];}
+  return cnt;
+}
+function tickets(){
+  // 処理券は品目ごとに貼るので、1品ずつ組み合わせを求めて合計する
+  if(!TICKETS.length||!cart.length)return '';
+  var sum={};
+  for(var k=0;k<cart.length;k++){var c=combo(cart[k].fee);if(!c)return '';for(var d in c)sum[d]=(sum[d]||0)+c[d]*cart[k].n;}
+  return '処理券：'+Object.keys(sum).map(Number).sort(function(a,b){return b-a;}).map(function(d){return d.toLocaleString()+'円券×'+sum[d]+'枚';}).join('、')+'（品目ごとに貼ります）';
 }
 function render(){
   var ul=$('cart');ul.innerHTML='';var total=0,count=0;
@@ -150,7 +156,7 @@ function render(){
   $('total').textContent=yen(total);
   $('c-total').textContent=count?count+'点で'+yen(total):'品目を選ぶと計算します';
   $('mbar').hidden=!count;$('mbar-t').innerHTML=count?count+'点　<b>'+yen(total)+'</b>':'';
-  var tk=$('tickets');if(tk)tk.textContent=tickets(total);
+  var tk=$('tickets');if(tk)tk.textContent=tickets();
   var lm=$('limit');var mm=LIMIT.match(/(\d+)\s*(点|個)/);
   if(mm&&count>+mm[1]){lm.hidden=false;lm.textContent='1回に申し込めるのは'+mm[1]+mm[2]+'までです（'+LIMIT+'）。'+count+'点を出すには複数回の申込が必要です。まとめて片付けるなら業者に頼む方法もあります。';}else lm.hidden=true;
 }
