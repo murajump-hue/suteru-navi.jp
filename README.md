@@ -54,7 +54,7 @@ Cloudflare（Workers の静的アセット）── push を検知して再公�
    - ビルドコマンド：`pip install -r requirements.txt && python scripts/build_site.py`
    - デプロイコマンド：`npx wrangler deploy`（`wrangler.jsonc` が `dist/` を公開する）
    - 環境変数：`PYTHON_VERSION` = `3.12`
-3. デプロイ後、`<プロジェクト名>.workers.dev` で表示を確認する。
+3. デプロイ後、`suteru-navi-jp.<アカウント>.workers.dev` で表示を確認する。
 
 ### 3. 独自ドメイン suteru-navi.jp をつなぐ
 
