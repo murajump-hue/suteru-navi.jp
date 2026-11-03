@@ -22,7 +22,7 @@ document.addEventListener('click',function(e){var a=e.target.closest('a[data-par
 <body data-page="{% block pagetype %}other{% endblock %}">
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/">{{ cfg.site_name }}<small>{{ cfg.tagline }}</small></a>
-  <nav><a href="/#areas">地域から探す</a><a href="/about/">このサイトについて</a></nav>
+  <nav><a href="/#areas">地域から探す</a><a href="/about/">このサイトについて</a><a href="/contact/">お問い合わせ</a></nav>
 </div></header>
 <p class="pr-note wrap">当サイトはアフィリエイト広告を利用しています。</p>
 <main class="wrap">
@@ -31,7 +31,7 @@ document.addEventListener('click',function(e){var a=e.target.closest('a[data-par
 </main>
 <footer class="site-footer"><div class="wrap">
   <p>料金・申込方法は各自治体の公式サイトの情報をもとに掲載しています。申込時に必ず自治体で最新の料金を確認してください。</p>
-  <p><a href="/about/">運営者・データについて</a>{% if cfg.contact_form %} ／ <a href="{{ cfg.contact_form }}" target="_blank" rel="noopener">お問い合わせ</a>{% endif %} ／ &copy; {{ cfg.site_name }}</p>
+  <p><a href="/about/">運営者・データについて</a>{% if cfg.contact_form %} ／ <a href="/contact/">お問い合わせ</a>{% endif %} ／ &copy; {{ cfg.site_name }}</p>
 </div></footer>
 </body>
 </html>

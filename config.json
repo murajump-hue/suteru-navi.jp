@@ -3,7 +3,7 @@
   "tagline": "粗大ごみの捨て方を、地域と品目で比べる",
   "base_url": "https://suteru-navi.jp",
   "ga4_id": "",
-  "contact_form": "",
+  "contact_form": "https://docs.google.com/forms/d/e/1FAIpQLSdfQNpNER1-evzwimTOwXkvgQQ6bpdmlaoeVXB2zr16q89dRw/viewform",
   "affiliate": {
     "poimitsu": {
       "enabled": true,
@@ -19,7 +19,19 @@
       "label": "遺品整理110番で相談する",
       "comment": "A8・遺品整理110番（全国対応）。報酬・成果条件は要確認"
     },
-    "r_cleaning": {"enabled": false, "url": "https://px.a8.net/svt/ejp?a8mat=4BGCEZ+EU26R6+4X26+NVHCY", "imp_pixel": "https://www17.a8.net/0.gif?a8mat=4BGCEZ+EU26R6+4X26+NVHCY", "label": "アールクリーニング", "comment": "提携済み。サービス内容・エリア確認後に有効化"},
-    "eco_clean": {"enabled": false, "url": "https://px.a8.net/svt/ejp?a8mat=4BGCEZ+ELQ4AA+36X8+15ORS2", "imp_pixel": "https://www12.a8.net/0.gif?a8mat=4BGCEZ+ELQ4AA+36X8+15ORS2", "label": "ECOクリーン", "comment": "提携済み。サービス内容・エリア確認後に有効化"}
+    "r_cleaning": {
+      "enabled": false,
+      "url": "https://px.a8.net/svt/ejp?a8mat=4BGCEZ+EU26R6+4X26+NVHCY",
+      "imp_pixel": "https://www17.a8.net/0.gif?a8mat=4BGCEZ+EU26R6+4X26+NVHCY",
+      "label": "アールクリーニング",
+      "comment": "提携済み。サービス内容・エリア確認後に有効化"
+    },
+    "eco_clean": {
+      "enabled": false,
+      "url": "https://px.a8.net/svt/ejp?a8mat=4BGCEZ+ELQ4AA+36X8+15ORS2",
+      "imp_pixel": "https://www12.a8.net/0.gif?a8mat=4BGCEZ+ELQ4AA+36X8+15ORS2",
+      "label": "ECOクリーン",
+      "comment": "提携済み。サービス内容・エリア確認後に有効化"
+    }
   }
 }

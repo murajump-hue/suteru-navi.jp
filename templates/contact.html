@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set crumb = [(cfg.site_name, '/'), ('お問い合わせ', None)] %}
+{% block title %}お問い合わせ｜{{ cfg.site_name }}{% endblock %}
+{% block desc %}{{ cfg.site_name }}へのお問い合わせ窓口です。掲載情報の修正依頼、広告・提携のご相談などはこちらから。{% endblock %}
+{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url) }}{% endblock %}
+{% block crumbs %}{{ m.crumbs(crumb) }}{% endblock %}
+{% block main %}
+<h1>お問い合わせ</h1>
+<p>掲載している手数料・申込方法の修正依頼、広告や提携のご相談などは、下のフォームからお送りください。内容を確認のうえ、必要に応じてメールでご返信します。</p>
+<p class="note">粗大ごみの申込や収集日の変更は、お住まいの自治体の受付センターへ直接お問い合わせください。</p>
+<div class="form-wrap"><iframe src="{{ cfg.contact_form }}?embedded=true" title="お問い合わせフォーム" loading="lazy">読み込んでいます…</iframe></div>
+<p class="note">フォームが表示されない場合は<a href="{{ cfg.contact_form }}" target="_blank" rel="noopener">こちらから開いてください</a>。</p>
+{% endblock %}

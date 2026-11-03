@@ -76,6 +76,9 @@ def main():
 
     render('about.html', '/about/')
     urls.append('/about/')
+    if CFG.get('contact_form'):
+        render('contact.html', '/contact/')
+        urls.append('/contact/')
     render('404.html', '/404.html')
 
     idx = [{'n': c['name'], 'p': c['pref'], 'u': c['url']} for c in cities]
