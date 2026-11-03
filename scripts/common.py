@@ -33,8 +33,10 @@ def city_slug(romaji, name):
     """'setagayaku' → 'setagaya'。末尾の市区町村の読みを外す"""
     for s, kanji in SUFFIX:
         if name.endswith(kanji) and romaji.endswith(s) and len(romaji) > len(s) + 1:
-            return romaji[:-len(s)]
-    return romaji
+            romaji = romaji[:-len(s)]
+            break
+    # 長音は一般的なローマ字表記に寄せる（bunkyou → bunkyo、oota → ota、chuuou → chuo）
+    return romaji.replace('uu', 'u').replace('ou', 'o').replace('oo', 'o')
 
 
 def yen(n):
