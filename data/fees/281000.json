@@ -1,0 +1,431 @@
+{
+ "code": "281000",
+ "items": [
+  {
+   "name": "衣装ケース（収納箱）",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "いす（1人掛け用のもの。応接いすを除く。）",
+   "options": [
+    {
+     "cond": "1脚につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "いす（2人掛け用以上のもの。応接いすを除く。）",
+   "options": [
+    {
+     "cond": "1脚につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "応接いす（1人掛け用）",
+   "options": [
+    {
+     "cond": "1脚につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "応接いす（2人掛け用以上）",
+   "options": [
+    {
+     "cond": "1脚につき",
+     "fee": 1200
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カーペット（じゅうたん含む。8畳以下のもの）",
+   "options": [
+    {
+     "cond": "1枚につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カーペット（じゅうたんを含む。8畳を超えるもの）",
+   "options": [
+    {
+     "cond": "1枚につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "カラーボックス",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "空気清浄器",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "こたつ（天板含む） 「こたつ」と「こたつ天板」は、別の機会に排出されると、それぞれに処理手数料がかかります。",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "こたつ（家具調・天板含む） 「こたつ」と「こたつ天板」は、別の機会に排出されると、それぞれに処理手数料がかかります。",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "座椅子",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "自転車（14インチ以下のもの）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "自転車（14インチを超えるもの）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "食器棚（高さが90cm以下のもの）",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "食器棚（高さが90cmを超えるもの）",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 1200
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "スーツケース",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "石油ストーブ・ファンヒーター",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "扇風機",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "掃除機",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "たんす（高さが90cm以下のもの）",
+   "options": [
+    {
+     "cond": "1さおにつき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "たんす（高さが90cmを超えるもの）",
+   "options": [
+    {
+     "cond": "1さおにつき",
+     "fee": 1200
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "机（両袖付きのもの）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 1200
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "机（両袖付きのものを除く）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テーブル（天板の最大の辺又は径が1m以下のもの）",
+   "options": [
+    {
+     "cond": "1卓につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テーブル（天板の最大の辺又は径が1mを超えるもの）",
+   "options": [
+    {
+     "cond": "1卓につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "テレビ台",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "電子レンジ",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "パイプハンガー",
+   "options": [
+    {
+     "cond": "1個につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "布団",
+   "options": [
+    {
+     "cond": "3枚までごとに",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド（シングルベッド。マットレス除く）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド（シングルベッド以外。マットレス除く）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 1200
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベッド（電動式ベッド。マットレスを除く）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 3000
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "ベビーカー（乳母車）",
+   "options": [
+    {
+     "cond": "1台につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "本棚（高さが90cm以下のもの）",
+   "options": [
+    {
+     "cond": "1本につき",
+     "fee": 600
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "本棚（高さが90cmを超えるもの）",
+   "options": [
+    {
+     "cond": "1本につき",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マットレス（スプリング入りのもの）",
+   "options": [
+    {
+     "cond": "1枚につき",
+     "fee": 3000
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "マットレス（スプリングのないもの）",
+   "options": [
+    {
+     "cond": "1枚につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "物干し竿",
+   "options": [
+    {
+     "cond": "1竿につき",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "物干し台（土台つき）",
+   "options": [
+    {
+     "cond": "2本までごとに",
+     "fee": 900
+    }
+   ],
+   "note": ""
+  },
+  {
+   "name": "物干し台（土台なし）",
+   "options": [
+    {
+     "cond": "2本までごとに",
+     "fee": 300
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "source_items": "https://www.city.kobe.lg.jp/a04164/kurashi/recycle/gomi/dashikata/bunbetsukubun/hinmokugoto/ogatagomi/shoritesuryo.html",
+ "items_fetched_at": "2026-11-03",
+ "official": "https://www.city.kobe.lg.jp/a04164/kurashi/recycle/gomi/dashikata/bunbetsukubun/hinmokugoto/ogatagomi/index.html",
+ "fee_page": "https://www.city.kobe.lg.jp/a04164/kurashi/recycle/gomi/dashikata/bunbetsukubun/hinmokugoto/ogatagomi/shoritesuryo.html",
+ "web": "https://www.ogatagomi.city.kobe.lg.jp/",
+ "web_hours": "24時間",
+ "tel": "078-392-7953（大型ごみ受付センター）",
+ "tel_hours": "月〜金 9:00〜16:00（祝日含む、12/29〜1/3休み）",
+ "limit": null,
+ "wait": null,
+ "wait_kind": null,
+ "carry_in": null,
+ "pickup_place": null,
+ "tickets": null,
+ "ticket_note": "大型ごみシール券を購入して品目ごとに貼る（ネット申込みならキャッシュレス決済も可）。掲載品目は市が公開している主な品目の例で、ほかの品目は受付センターで確認してください",
+ "checked_at": "2026-11-03"
+}
