@@ -1,8 +1,8 @@
 {% macro crumbs(items) %}
 <nav class="crumbs" aria-label="パンくず">{% for name, url in items %}{% if url %}<a href="{{ url }}">{{ name }}</a> ›&nbsp;{% else %}<span>{{ name }}</span>{% endif %}{% endfor %}</nav>
 {% endmacro %}
-{% macro crumbs_ld(items, base) %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for name, url in items %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ name|tojson }}{% if url %},"item":{{ (base ~ url)|tojson }}{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
+{% macro crumbs_ld(items, base, path) %}{% set ns = namespace(list=[]) %}{% for name, url in items %}{% if url or loop.last %}{% set ns.list = ns.list + [(name, url or path)] %}{% endif %}{% endfor %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{% for name, url in ns.list %}{"@type":"ListItem","position":{{ loop.index }},"name":{{ name|tojson }},"item":{{ (base ~ url)|tojson }}}{% if not loop.last %},{% endif %}{% endfor %}]}</script>
 {% endmacro %}
 {% macro partner(cfg, key, place, title, text) %}{% set a = cfg.affiliate.get(key) %}{% if a and a.enabled and a.url %}<div class="cta">
   <p class="cta-text"><b>{{ title }}</b>{{ text }}</p>

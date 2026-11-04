@@ -3,7 +3,7 @@
 {% set crumb = [(cfg.site_name, '/'), ('お問い合わせ', None)] %}
 {% block title %}お問い合わせ｜{{ cfg.site_name }}{% endblock %}
 {% block desc %}{{ cfg.site_name }}へのお問い合わせ窓口です。掲載情報の修正依頼、広告・提携のご相談などはこちらから。{% endblock %}
-{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url) }}{% endblock %}
+{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url, path) }}{% endblock %}
 {% block crumbs %}{{ m.crumbs(crumb) }}{% endblock %}
 {% block main %}
 <h1>お問い合わせ</h1>

@@ -4,7 +4,7 @@
 {% block title %}【{{ c.ym }}】{{ c.name }}の粗大ごみの捨て方｜料金をまとめて計算・業者と比較{% endblock %}
 {% block desc %}{{ c.pref }}{{ c.name }}の粗大ごみの捨て方。捨てたい品目を選ぶと、自治体に出した場合の合計料金{% if c.tickets %}と処理券の内訳{% endif %}がわかります。申込方法・収集までの目安と、業者に頼む場合との比較も。{% endblock %}
 {% block pagetype %}city{% endblock %}
-{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url) }}{% endblock %}
+{% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url, path) }}{% endblock %}
 {% block crumbs %}{{ m.crumbs(crumb) }}{% endblock %}
 {% block main %}
 <h1>{{ c.name }}の粗大ごみの捨て方<span class="sub">{{ c.pref }}・{{ c.ym }}確認</span></h1>
