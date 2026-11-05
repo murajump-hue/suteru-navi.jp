@@ -40,4 +40,6 @@ def city_slug(romaji, name):
 
 
 def yen(n):
-    return '−' if n is None else f'{n:,}円'
+    if n is None:
+        return '−'
+    return '無料' if n == 0 else f'{n:,}円'

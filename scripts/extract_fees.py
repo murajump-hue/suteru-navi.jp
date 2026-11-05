@@ -158,7 +158,7 @@ if __name__ == '__main__':
     save(code, items, url)
 
 
-def from_eco_json(base=None, path=None):
+def from_eco_json(base=None, path=None, free=False):
     """sodai-xxx.jp/eco 系の受付サイトの品目一覧（JSON）を読む。
     base: 'https://www.sodai-setagaya.jp/eco/view/setagaya' のような品目一覧ページのフォルダ。
     path: 日本以外から接続できない自治体用に、別の環境で保存したJSONファイル。
@@ -179,7 +179,8 @@ def from_eco_json(base=None, path=None):
         data = json.loads(op.open(req, timeout=60).read().decode('utf-8'))
     items, tickets = [], set()
     for d in data:
-        if d.get('uncollct_flg') or not d.get('tanka') or d['tanka'] < 0:
+        # free=True: 手数料が無料の自治体（単価0円の品目も取り込む）
+        if d.get('uncollct_flg') or d.get('tanka') is None or d['tanka'] < 0 or (not free and not d['tanka']):
             continue
         name = clean(d.get('dustName', ''))
         note = clean(re.sub(r'<[^>]+>', ' ', d.get('html_memo') or ''))[:120]

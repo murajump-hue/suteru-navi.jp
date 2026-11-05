@@ -1,20 +1,20 @@
 {% extends "base.html" %}
 {% import "_macros.html" as m %}
 {% set crumb = [(cfg.site_name, '/'), (c.pref, None), (c.name, None)] %}
-{% block title %}【{{ c.ym }}】{{ c.name }}の粗大ごみの捨て方｜料金をまとめて計算・業者と比較{% endblock %}
-{% block desc %}{{ c.pref }}{{ c.name }}の粗大ごみの捨て方。捨てたい品目を選ぶと、自治体に出した場合の合計料金{% if c.tickets %}と処理券の内訳{% endif %}がわかります。申込方法・収集までの目安と、業者に頼む場合との比較も。{% endblock %}
+{% block title %}【{{ c.ym }}】{{ c.name }}の粗大ごみの捨て方｜{% if c.free %}無料で出せる品目・申込方法{% else %}料金をまとめて計算{% endif %}・業者と比較{% endblock %}
+{% block desc %}{{ c.pref }}{{ c.name }}の粗大ごみの捨て方。{% if c.free %}{{ c.name }}の粗大ごみは手数料無料です。出せる品目と1回に出せる点数を確認できます。{% else %}捨てたい品目を選ぶと、自治体に出した場合の合計料金{% if c.tickets %}と処理券の内訳{% endif %}がわかります。{% endif %}申込方法・収集までの目安と、業者に頼む場合との比較も。{% endblock %}
 {% block pagetype %}city{% endblock %}
 {% block jsonld %}{{ m.crumbs_ld(crumb, cfg.base_url, path) }}{% endblock %}
 {% block crumbs %}{{ m.crumbs(crumb) }}{% endblock %}
 {% block main %}
 <h1>{{ c.name }}の粗大ごみの捨て方<span class="sub">{{ c.pref }}・{{ c.ym }}確認</span></h1>
 <div class="lead">
-  <p>{{ c.name }}の粗大ごみは<strong>事前申込制</strong>です。{% if c.flat_fee %}{{ c.flat_desc }}で、{% endif %}手数料は品目によって<strong>{{ yen(c.fee_min) }}〜{{ yen(c.fee_max) }}</strong>です。{% if c.wait %}{{ c.wait }}ので、余裕をもって申し込みましょう。{% endif %}</p>
-  <p>下の「まとめて計算」で捨てたいものを選ぶと、自治体に出した場合の合計{% if c.tickets %}と処理券の枚数{% endif %}がわかります。急ぐときや運び出せないときは、業者に頼む場合と比べて決められます。</p>
+  <p>{{ c.name }}の粗大ごみは<strong>事前申込制</strong>です。{% if c.free %}手数料は<strong>無料</strong>です{% if c.free_desc %}（{{ c.free_desc }}）{% endif %}。{% else %}{% if c.flat_fee %}{{ c.flat_desc }}で、{% endif %}手数料は品目によって<strong>{{ yen(c.fee_min) }}〜{{ yen(c.fee_max) }}</strong>です。{% endif %}{% if c.wait %}申込から収集までの目安は「{{ c.wait }}」です。余裕をもって申し込みましょう。{% endif %}</p>
+  <p>{% if c.free %}下の一覧で、捨てたいものが{{ c.name }}の粗大ごみで出せるか確認できます。選んだ点数が1回の上限を超えると知らせます。{% else %}下の「まとめて計算」で捨てたいものを選ぶと、自治体に出した場合の合計{% if c.tickets %}と処理券の枚数{% endif %}がわかります。{% endif %}急ぐときや運び出せないときは、業者に頼む場合と比べて決められます。</p>
 </div>
 
 <section id="calc" class="calc">
-  <h2>捨てたいものを選んで、まとめて計算</h2>
+  <h2>{% if c.free %}捨てたいものを選んで、出せるか確認{% else %}捨てたいものを選んで、まとめて計算{% endif %}</h2>
   <div class="calc-grid">
     <div class="calc-pick">
       <div class="chips" role="group" aria-label="よく捨てるもの">{% for label, q in quick %}<button type="button" class="chip" data-q="{{ q }}">{{ label }}</button>{% endfor %}</div>
@@ -39,7 +39,7 @@
     <aside class="calc-cart" aria-live="polite">
       <h3>選んだもの</h3>
       <ul id="cart"><li class="empty">まだ選ばれていません</li></ul>
-      <div class="total">自治体に出すと <span id="total">0円</span></div>
+      <div class="total">自治体に出すと <span id="total">{{ "無料" if c.free else "0円" }}</span></div>
       {% if c.tickets %}<p class="tickets" id="tickets"></p>{% endif %}
       <p class="limit" id="limit" hidden></p>
     </aside>
@@ -68,7 +68,7 @@
       {% set a = cfg.affiliate.poimitsu %}{% if a.enabled %}<a class="btn" href="{{ a.url }}" target="_blank" rel="nofollow sponsored noopener" data-partner="poimitsu" data-place="compare">無料で見積もりを比べる</a>{% if a.imp_pixel %}<img src="{{ a.imp_pixel }}" width="1" height="1" alt="" class="px">{% endif %}{% endif %}
     </div>
   </div>
-  <p class="note">自治体の手数料は{{ c.ym }}に{{ m.src(c.fee_page, c.name ~ 'の公式情報') }}で確認した金額です。条件（大きさ・重さ）で料金が変わる品目は、選んだ条件で計算しています。申込時に自治体で最終確認してください。</p>
+  <p class="note">{% if c.free %}{{ c.name }}の粗大ごみの収集は無料です（{{ c.ym }}に{{ m.src(c.fee_page, c.name ~ 'の公式情報') }}で確認）。品目によっては出せない場合や、点数・回数の上限があります。申込時に確認してください。{% else %}自治体の手数料は{{ c.ym }}に{{ m.src(c.fee_page, c.name ~ 'の公式情報') }}で確認した金額です。条件（大きさ・重さ）で料金が変わる品目は、選んだ条件で計算しています。申込時に自治体で最終確認してください。{% endif %}</p>
 </section>
 
 <section id="apply">
@@ -77,7 +77,7 @@
     <tbody>
       {% if c.web %}<tr><th>インターネット</th><td>{{ m.src(c.web, c.name ~ 'の粗大ごみ受付サイト') }}{% if c.web_hours %}<br><small>受付：{{ c.web_hours }}</small>{% endif %}</td></tr>{% endif %}
       {% if c.tel %}<tr><th>電話</th><td>{{ c.tel }}{% if c.tel_hours %}<br><small>受付：{{ c.tel_hours }}</small>{% endif %}</td></tr>{% endif %}
-      <tr><th>支払い</th><td>{{ c.ticket_note }}</td></tr>
+      <tr><th>{% if c.free %}手数料{% else %}支払い{% endif %}</th><td>{% if c.free %}無料。{% endif %}{{ c.ticket_note }}</td></tr>
       {% if c.limit %}<tr><th>1回の点数</th><td>{{ c.limit }}</td></tr>{% endif %}
       {% if c.wait %}<tr><th>収集までの目安</th><td>{{ c.wait }}{% if c.wait_url %}（{{ m.src(c.wait_url, '確認する') }}）{% endif %}</td></tr>{% endif %}
       {% if c.pickup_place %}<tr><th>出し方</th><td>{{ c.pickup_place }}</td></tr>{% endif %}
@@ -87,7 +87,7 @@
   <ol class="steps">
     <li>捨てるものの大きさを測り、品目と手数料を確認する（上の「まとめて計算」が使えます）</li>
     <li>インターネットか電話で申し込み、収集日と受付番号を受け取る</li>
-    <li>{% if c.tickets %}指定された金額分の処理券を購入し、品目ごとに貼る{% else %}手数料を支払う（処理券の購入など）{% endif %}</li>
+    <li>{% if c.free %}手数料はかかりません。{{ c.ticket_note or '指示どおりに受付番号などを書いた紙を貼る' }}{% elif c.tickets %}指定された金額分の処理券を購入し、品目ごとに貼る{% else %}手数料を支払う（処理券の購入など）{% endif %}</li>
     <li>収集日の朝、指定された場所に出す</li>
   </ol>
   <p class="note">詳しくは{{ m.src(c.official, c.name ~ 'の公式ページ') }}を確認してください。</p>
@@ -121,7 +121,7 @@
 var TICKETS={{ (c.tickets or [])|tojson }},LIMIT={{ (c.limit or '')|tojson }};
 var $=function(i){return document.getElementById(i);},rows=[].slice.call(document.querySelectorAll('#items tbody tr'));
 var cart=[];
-function yen(n){return n.toLocaleString('ja-JP')+'円';}
+function yen(n){return n===0?'無料':n.toLocaleString('ja-JP')+'円';}
 function filter(v){
   var re=null;try{re=v?new RegExp(v,'i'):null;}catch(e){re=null;}
   var n=0;rows.forEach(function(r){var ok=!v||(re?re.test(r.dataset.name):r.dataset.name.indexOf(v)>=0);r.hidden=!ok;if(ok)n++;});

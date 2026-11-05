@@ -34,6 +34,7 @@ def load():
         fees = [o['fee'] for i in d['items'] for o in i['options']]
         d['fee_min'], d['fee_max'] = min(fees), max(fees)
         d['fee_levels'] = sorted(set(fees))
+        d['free'] = d['fee_max'] == 0
         d['ym'] = d['checked_at'][:7].replace('-', '年') + '月'
         cities.append(d)
     return cities
