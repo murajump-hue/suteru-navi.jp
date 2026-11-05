@@ -1,0 +1,2746 @@
+{
+ "code": "272272",
+ "items": [
+  {
+   "name": "棒状のもの(10本まで）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "あんま機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "あんま機(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "おもちゃ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "こたつ（天板有・無）(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "こたつ（天板有・無）(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ごみ箱(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "そうじ機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ふとん干し(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ふとん干し(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ほうき・モップ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "アイロン台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "アコーディオンカーテン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "アコーディオンカーテン(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "アンテナ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ウォシュレット(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "オーディオラック(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "オーディオ機器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "カラオケ機器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "カーキャリー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "カーキャリー(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "カーテンレール(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ガスコンロ(電池抜く)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ガス湯沸かし機・電池抜く(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ガラステーブル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ガラステーブル(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ガラス片・ガラス板(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "キックボード(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "キャリーカート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "キャンプ用テーブル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "クリスマスツリー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "クーラーボックス(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ゲーム機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "コーヒーメーカー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ゴルフクラブ(10本まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ゴルフセット(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "サイクリングマシン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "サイクリングマシン(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ショッピングカート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "シルバーカー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スキーセット",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スキー板(3m以下)(10本まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スケートボード(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スチールロッカー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スチールロッカー(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ステレオセット・コンポ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ストーブ・ファンヒーター(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "スノーボード(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ズボンプレッサー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ソファー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ソファー(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ソファーベッド(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ソファーベッド(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テレビ台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テント・タープ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テント・タープ(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テーブル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テーブル(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "トレーニング・健康器具(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "トレーニング・健康器具(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ハンガーラック(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "バーベキューセット(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "パソコン机(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "パチンコ・スロット台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ブラインド(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ブランコ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ブランコ(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "プリンター(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ベッド(スチール製・解体済)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベッド(スチール製・解体済)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベビーゲート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベビーラック・バウンサー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ペット小屋・ゲージ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ホットプレート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ホースリール(ホース付)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ボンボンベッド(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "マッサージ器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "マッサージ器(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ミシン・ロックミシン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ランニングマシン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ランニングマシン(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "レンジ台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ロールカーテン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ロールスクリーン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ワゴン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ワープロ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "一輪車(子供用)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "三輪車(幼児用)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "乳母車・ベビーカー(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "傘(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "傘たて(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "冷風機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "加湿器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "収納庫(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納庫(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納用品(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "同形状のもの（5個まで）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "家庭用コピー機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "容器類(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "座椅子(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "扇風機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "折りたたみベッド(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "折りたたみベッド(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "机(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "机(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "棚(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "棚(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "椅子(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "植木台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "植木鉢(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "歩行器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "水槽(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "洗濯機の棚(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "浄水器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "照明器具(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "照明器具付き机(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "照明器具付き机(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "照明器具付机の上置き・3m以下",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物干し台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物干し台(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物干し竿(3m以下・10本まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物置(解体済み)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "物置(解体済み)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "生ごみ処理機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "石油ストーブ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "石油ファンヒーター(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "空気清浄機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "簡易物干し(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "米びつ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "網戸・金属製(3m以下・5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "編み機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "脚立・はしご(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "自転車",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "自転車(子供用)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "自転車用子供のせ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "車椅子(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "除湿機(フロン有・不明)3m以下",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "除湿機(フロン無)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電子オルガン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電子ピアノ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電子レンジ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電気カーペット(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電気カーペット(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電気治療器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "電磁調理器(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "電話台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "額・パネル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "食器(洗い)乾燥機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "餅つき機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "鳥かご(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ＦＡＸ付電話機(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "ＩＨコンロ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": "不燃］電気製品・ガス機器"
+  },
+  {
+   "name": "Ｊボード(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "おもちゃ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "こたつ天板(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "こたつ天板(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ごみ箱(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "すだれ(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "すのこ(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "つい立て(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ふとん(3m以下)(5枚まで)マットレス除く",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ほうき・モップ(10本まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "よしず(3m以下)＊１枚１点",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ウッドカーペット(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "オーディオラック(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "カラーボックス(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "カーペット(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "カーペット(3m超え)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "キャンプ用テーブル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "キャンプ用テーブル(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ギター(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "クッション(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "クーラーボックス(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ゴルフバッグ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "サーフボード(3m以下)＊１枚１点",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "スーツケース・旅行かばん(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "タンス 中(幅1m未満)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "タンス 中(幅1m未満)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "タンス 大(幅1m以上)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "タンス 大(幅1m以上)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "チェスト(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "チャイルドシート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テレビ台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テレビ台(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テーブル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "テーブル(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ドア(木製)(3m以下)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベッド(木製・解体済)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベッド(木製・解体済)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベビーゲート(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベビーバス(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ベビーベッド(木製・解体済)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ペット小屋・ゲージ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ホースリール（ホース）(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "レンジ台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ローボード・サイドボード(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "ワゴン(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "下駄箱(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "下駄箱(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "人形ケース(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "傘立て(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納棚 中(幅1m未満)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納棚 中(幅1m未満)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納棚 大(幅1m以上)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納棚 大(幅1m以上)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納用品(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "収納用品(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "吊り戸棚(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "同形状で重なるもの（5個まで）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "容器類(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "座布団(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "建具(障子・ふすま・網戸)(5枚まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "敷物類(3m以下)(5枚まで)マットレス除く",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "敷物類(3m超え)(5枚まで)マットレス除く",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "木切れ(直径10cm以内)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "本棚 中(幅1m未満)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "本棚 中(幅1m未満)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "本棚 大(幅1m以上)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "本棚 大(幅1m以上)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "机(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "机(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "机の上置き(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "板・ベニヤ板(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "板・ベニヤ板(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "枕(5個まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "棒状のもの(10本まで）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "椅子・座椅子(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "植木台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "植木鉢・プランター(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "毛布(3m以下)(5枚まで)マットレス除く",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "水槽(プラスチック製)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "簡易物干し(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "米びつ(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "脇机(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "釣竿(3m以下)(10本まで)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "鏡台・姿見(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "電話台(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "額・パネル(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "風呂ふた(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "食器棚・食品庫(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "食器棚・食品庫(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "飾り棚(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "２段ベッド(木製・解体済)(3m以下)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "２段ベッド(木製・解体済)(3m超え)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "特定］スプリング入りマットレス(シングル)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "特定］スプリング入りマットレス(セミダブル以上)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "特定］ベッドマットレス・スプリング無(セミダブル以上)",
+   "options": [
+    {
+     "cond": "",
+     "fee": 800
+    }
+   ],
+   "note": "",
+   "group": ""
+  },
+  {
+   "name": "特定］ベッドマットレス・スプリング無（シングル）",
+   "options": [
+    {
+     "cond": "",
+     "fee": 400
+    }
+   ],
+   "note": "",
+   "group": ""
+  }
+ ],
+ "source_items": "https://www.ogomi-higashiosaka.jp/eco/view/higashiosaka/dustlistSearch.html",
+ "items_fetched_at": "2026-11-05",
+ "official": "https://www.city.higashiosaka.lg.jp/0000000090.html",
+ "fee_page": "https://www.ogomi-higashiosaka.jp/eco/view/higashiosaka/dustlistSearch.html",
+ "web": "https://www.ogomi-higashiosaka.jp/eco/view/higashiosaka/top.html",
+ "web_hours": "24時間",
+ "tel": "072-962-5374（大型ごみ受付センター）",
+ "tel_hours": "日〜金 9:00〜17:00（祝日含む、土曜・年末年始休み）",
+ "tickets": [
+  400
+ ],
+ "ticket_note": "手数料分の大型ごみ処理券を購入して品目ごとに貼る（東大阪市では「大型ごみ」と呼びます）",
+ "checked_at": "2026-11-05"
+}
